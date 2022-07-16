@@ -55,7 +55,7 @@ p{
 
 
 nav{
-	background-color: #000000;
+	
 	padding: 6px 20px;
 	display: flex;
 	justify-content: space-between;
@@ -79,12 +79,13 @@ nav{
    }  
 
 
-     nav ul li a{
+  .navbar  ul li a.nav-link {
 	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5rem;
-	font-weight: 400;
+	font-weight: 600;
+
 	
     }
 
@@ -478,6 +479,8 @@ header{
 }
 
 
+
+
 @media only screen and (max-width: 883px){
 	.template-area{
 		grid-template-columns: 1fr;
@@ -533,9 +536,7 @@ header{
 }
 
 
-nav{
-	display: inline-block;
-}
+
 
 .template-areas2{
   grid-template-columns: 1fr;
@@ -551,3 +552,5 @@ nav{
 header{
 	height: 200px;
 }
+
+
