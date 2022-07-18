@@ -5,9 +5,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Gabriel Remolques // Auxilios livianos y pesados</title>
 	<link rel="shortcut icon" href="../img/logo.jpeg">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
+	<nav class="navbar navbar-dark navbar-expand-lg botonera">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+    <img class="imagen-titulo" src="../img/titulo2.jpeg" alt="Logo de Gabriel Remolques auxilios livianos y pesados">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../pages/quienes-somos.html">QUIENES SOMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/por-que-elegirnos.html">¿POR QUE ELEGIRNOS?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../pages/nuestros-servicios.html">NUESTROS SERVICIOS</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+
+
+
+
+<!--
+
 	<nav class="botonera">
 		<a href="../index.html">
 		  <img class="imagen-titulo" src="../img/titulo2.jpeg" alt="Logo de Gabriel Remolques auxilios livianos y pesados">
@@ -30,12 +69,42 @@
 
 		</nav>
 
-		<header>
-			
-		</header>
+ -->
 
 
-		<main class="nuestros-servicios bg-grey text-center"> 
+		--> inicio carrusel 
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../img/animacion2.jpeg" class="d-block w-100" alt="camion camilla pesada con brazo articulado cargado">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/animacion3.jpeg" class="d-block w-100" alt="camion con carreton pesado con manipulador cargado">
+    </div>
+    <div class="carousel-item">
+      <img src="../img/animacion4.jpeg" class="d-block w-100" alt="camion con camilla liviana con carga de un autoelevador">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>	
+
+--> fin carrusel 
+
+
+		<main id="nuestros-servicios" class="nuestros-servicios bg-grey text-center"> 
 			<h1>NUESTROS SERVICIOS</h1>
 			<h2>CONOZCA NUESTROS SERVICIOS</h2>
 			<div>

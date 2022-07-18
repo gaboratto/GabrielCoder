@@ -79,15 +79,24 @@ nav{
    }  
 
 
-  .navbar  ul li a.nav-link {
+  .navbar-dark .navbar-nav a.nav-link {
 	color: #FFFFFF;
 	text-decoration: none;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1.5rem;
 	font-weight: 600;
+	text-align: center;
 
 	
     }
+
+
+.navbar-dark .navbar-toggler {
+    border-color: white;
+    font-size: 2rem;
+    border-width: 2px;
+
+}
 
 
 .text-center{
@@ -432,7 +441,7 @@ div h4{
 
 .botonera ul li a {
 	 	text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
+    background-image: linear-gradient(currentColor, #FF8C00);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -450,6 +459,7 @@ div h4{
 }
 
 
+/*
 
 @Keyframes header-animacion{
 	0%{background-image: url(../img/animacion1.jpeg);}
@@ -469,7 +479,12 @@ header{
 	animation-iteration-count: infinite;
 	height: 100vh;
 	background-size: cover;
+
+
 }
+
+
+*/
 
 .transition:hover{
 	background-color: #FFA500;
@@ -477,6 +492,11 @@ header{
 	cursor: pointer;
 
 }
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
 
 
 
