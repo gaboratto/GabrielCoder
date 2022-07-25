@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+
+*{
+	font-family: 'Ubuntu', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-image: url(../img/bubble1.jpg);
+	background-attachment: fixed;
+}
+
+h1{
+	color:  #000000;
+	font-size: 3rem
+}
+
+h2{
+	color: #FFFFFF;
+	font-size: 2rem;
+	padding-top: 10px;
+
+}
+
+h3{
+	color: #FFFFFF;
+	font-size: 2rem;
+
+	
+
+}
+
+h1,h2,h3 {
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+p{
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: 300;
+	padding-top: 10px;
+
+}
+
+
+nav{
+	
+	padding: 6px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	
+
+}
+
+  nav ul{
+  	list-style: none;
+  	display: flex;
+
+  	
+
+  }
+
+    nav ul li{
+   	display: inline-block;
+   	margin-right: 10px;
+   }  
+
+
+  .navbar-dark .navbar-nav a.nav-link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-align: center;
+
+	
+    }
+
+
+.navbar-dark .navbar-toggler {
+    border-color: white;
+    font-size: 2rem;
+    border-width: 2px;
+
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.bg-orange{
+	background-color: #FFA500;
+}
+
+.bg-grey{
+	background-color: #808080;
+}
+
+.text-black{
+   color: #000000;
+}
+
+
+.quienes-articulo{
+	width: 90%;
+	height: auto;
+	padding: 30px 30px;
+	margin: 30px auto;
+	overflow: auto;
+	
+	
+}
+
+.borde-blanco{
+	border: double #FFFFFF 2px;
+}
+
+.pie-articulo{
+	width: 40px;
+}
+
+.imagen-encabezado{
+	width: 100%;
+
+}
+
+.imagen-titulo{
+	width: 250px;
+}
+
+.porque-articulo{
+	width: 90%;
+	height: auto;
+	padding: 30px 30px;
+	margin: 30px auto;
+	overflow: auto;
+	border: double #FFFFFF 2px;
+	
+}
+
+ul li{
+	color: #FFFF00;
+	font-size: 1.8rem;
+	list-style: none;
+	padding-top: 10px;
+	font-weight: 600;
+
+}
+
+.nuestros-servicios{
+	width: 90%;
+	height: auto;
+	padding: 30px 30px;
+	margin: 30px auto;
+	overflow: auto;
+	border: double #FFFFFF 2px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+
+
+.contacto-articulo h1{
+	color: #FF8C00;
+	
+
+}
+
+.contacto-articulo h3{
+	color: #FF8C00;
+	padding-top: 10px;
+
+}
+
+.dejanos-consulta{
+	color: #FF8C00;
+	font-size: 1.5rem;
+
+}
+
+.dejanos-consulta h1{
+	color: #FF8C00;
+	padding-bottom: 10px;
+}
+
+.dejanos-consulta h3{
+	padding-bottom: 10px;
+
+}
+
+.seguinos-redes h3{
+	padding-top: 10px;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+  margin: 10px auto;
+  width: 350px;
+
+}
+
+
+.flex-direction-quienes{
+	flex-direction: column;
+
+}
+
+.contenedor{
+	display: flex;
+}
+
+.flex-direction-vision{
+	display: flex;
+	
+}
+
+.w-half{
+	width: 33%;
+	
+}
+
+.padding-15{
+	padding: 15px;
+}
+
+.foto5{
+	width: 100%;
+}
+
+.foto-centrada{
+	text-align: center;
+}
+
+.items-center{
+	align-items: center;
+}
+
+.flex-nuestros-servicios{
+	display: flex;
+}
+
+.foto-nuestros-servicios{
+	overflow: hidden;
+	width: 100%;
+	object-fit: cover;
+	flex-grow: 1;
+	
+}
+
+.figcaption{
+	color: #FFFF00; 
+	font-size: 2rem;
+	font-weight: 600;
+
+}
+
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+.width-100{
+	width: 100%;
+
+}
+
+.width-33{
+	width: 33.3%;
+
+}
+
+.padding-bottom-15{
+	padding-bottom: 15px;
+}
+
+.flex-direction-consulta{
+	flex-direction: column;
+	
+}
+
+.contenedor-consunta{
+	display: flex;
+	margin: auto;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.boton{
+	color: #d6e2ec;
+	padding: 5px 10px;
+	background-color: #2e394a;
+	border: double #363943 1px;
+	font-size: 1.5rem;
+	
+	
+
+}
+
+.margin-right{
+	margin-right: 5px;
+}
+
+
+.grid{
+	display: grid;
+
+	
+}
+
+.template-area{
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-areas: 
+	"arriba1 arriba1 arriba2 arriba2 arriba3 arriba3"
+	"medio medio medio medio medio medio" 
+	"abajo1 abajo1 abajo1 abajo2 abajo2 abajo2";
+	grid-template-rows: 250px 550px 250px;
+	gap: 25px;
+	padding-top: 15px;
+
+
+}
+
+.foto-arriba1{
+	grid-area: arriba1;
+}
+.foto-arriba2{
+	grid-area: arriba2;
+}
+
+.foto-arriba3{
+	grid-area: arriba3;
+}
+
+.foto-medio{
+	grid-area: medio;
+}
+
+.foto-abajo1{
+	grid-area: abajo1;
+}
+
+.foto-abajo2{
+	grid-area: abajo2;
+}
+
+.nuestros-servicios figure{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+div h3{
+  color: #FF8C00;
+	font-size: 2rem
+
+
+
+}
+
+div h4{
+  color: #000000;
+  padding-top: 10px;
+
+}
+
+.grid{
+  display: grid;
+
+}
+
+.template-areas2{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+
+
+ 
+ 
+}
+
+.color-blanco{
+	background-color: #FFFFFF;
+}
+
+
+
+.padding-top-30{
+	padding-top: 30px;
+}
+
+.comillas{
+	width: 30px;
+	padding-top: 10px;
+
+
+	
+
+}
+
+.borde-redondo{
+	border-radius: 20px;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.padding-15{
+	padding: 15px;
+}
+
+
+.botonera ul li a {
+	 	text-decoration: none;
+    background-image: linear-gradient(currentColor, #FF8C00);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
+  }
+
+
+.botonera ul li a:hover{
+	background-size: 100% 2px;
+	color: #FF8C00;
+	font-weight: 600;
+
+
+}
+
+
+/*
+
+@Keyframes header-animacion{
+	0%{background-image: url(../img/animacion1.jpeg);}
+	20%{background-image: url(../img/animacion2.jpeg);}
+	40%{background-image: url(../img/animacion3.jpeg);}
+	60%{background-image: url(../img/animacion4.jpeg);}
+	80%{background-image: url(../img/animacion5.jpeg);}
+	100%{background-image: url(../img/animacion1.jpeg);}
+
+}
+
+
+header{
+
+	animation-name: header-animacion;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	height: 100vh;
+	background-size: cover;
+
+
+}
+
+
+*/
+
+.transition:hover{
+	background-color: #FFA500;
+	font-weight: 600;
+	cursor: pointer;
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+}
+
+
+
+
+
+@media only screen and (max-width: 883px){
+	.template-area{
+		grid-template-columns: 1fr;
+		grid-template-areas: none;
+		grid-template-rows: none;
+
+
+
+
+	}
+
+
+	.nuestros-servicios{
+		width: 100%;
+		padding: 0;
+
+
+	}
+
+	figure{
+		display: block;
+	}
+
+
+	figcaption{
+		width: 100%;
+	}
+
+
+.width-33{
+	width: 100%;
+}
+
+
+.w-half{
+	width: 100%;
+
+}
+
+
+.flex-direction-vision{
+	flex-direction: column;
+}
+
+.quienes-articulo{
+	width: 100%;
+	padding: 0;
+
+}
+
+.contenedor{
+	padding: 0;
+}
+
+
+
+
+.template-areas2{
+  grid-template-columns: 1fr;
+  padding: 30px;
+
+}
+
+.foto-arriba1, .foto-arriba2, .foto-arriba3, .foto-medio, .foto-abajo1, .foto-abajo2 {
+    grid-area: unset;
+}
+
+
+header{
+	height: 200px;
+}
+
+
