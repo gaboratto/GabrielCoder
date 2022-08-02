@@ -47,11 +47,9 @@ h1,h2,h3 {
 
 p{
 	color: $colorBlanco;
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 2rem;
 	line-height: 2rem;
-	font-weight: 300;
 	padding-top: 10px;
+	@include texto(2rem; 300);
 
 }
 
@@ -80,9 +78,31 @@ nav{
 
 }
 
+//extend
+.flex{
+	display: flex;
+	flex-direction: column;
+}
+
+
+//mixin
+@mixin texto($fontSize, $fontWeight){
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+
+//maps
+$paleta:(
+	'negro': #000000,
+	'blanco': #FFFFFF,
+	'naranja': #FFA500,
+	'gris': #808080,);
+
 .navbar-dark{
 	.navbar-toggler{
-		  	border-color: $colorBlanco;
+		  	border-color: map-get($map:$paleta,$key 'blanco');
 		    font-size: 2rem;
 		    border-width: 2px;
 
@@ -91,10 +111,9 @@ nav{
 		a.nav-link{
 				color: $colorBlanco;
 				text-decoration: none;
-				font-family: 'Ubuntu', sans-serif;
-				font-size: 1.5rem;
-				font-weight: 600;
 				text-align: center;
+				@include texto(1.5rem; 600);
+
 
 
 		}
@@ -175,8 +194,8 @@ ul li{
 	margin: 30px auto;
 	overflow: auto;
 	border: double $colorBlanco 2px;
-	display: flex;
-	flex-direction: column;
+	@extend .flex;
+	
 
 }
 
@@ -216,8 +235,7 @@ ul li{
 }
 
 .box{
-	display: flex;
-	flex-direction: column;
+	@extend .flex;
   	margin: 10px auto;
   	width: 350px;
 
@@ -374,8 +392,8 @@ ul li{
 
 .nuestros-servicios{
 	figure{
-		 display: flex;
-    	flex-direction: column;
+		 @extend .flex;
+	
 	}
 }
 
